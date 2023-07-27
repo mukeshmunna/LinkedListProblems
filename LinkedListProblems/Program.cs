@@ -6,16 +6,16 @@ public class Program
     public static void Main(string[] args)
     {
         Console.WriteLine("LinkedList Problem");
-        Console.WriteLine("Welcome to the Linked List Stack");
-        LinkedListStack stack = new LinkedListStack();
-        stack.Push(50);
-        stack.Push(60);
-        stack.Push(70);
-        stack.Display();
-        stack.Peek();
-        stack.Pop();
-        stack.Display();
+        Console.WriteLine("Welcome to the Linked List Operation");
+        LinkedList list = new LinkedList();
+        // list.Add(50);
+        //list.Add(60);
+        //list.Add(70);
+        list.AddInReverseOrder(56);
+        list.AddInReverseOrder(30);
+        list.AddInReverseOrder(70);
 
-       
+        list.Display();
+
     }
 }
