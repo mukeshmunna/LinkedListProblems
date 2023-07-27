@@ -6,15 +6,15 @@ public class Program
     public static void Main(string[] args)
     {
         Console.WriteLine("LinkedList Problem");
-        Console.WriteLine("Welcome to the Linked List Operation");
+        Console.WriteLine("Linked List Operation");
         LinkedList list = new LinkedList();
         list.Add(56);
         list.Add(30);
         list.Add(70);
         /* list.AddInReverseOrder(50);
-         list.AddInReverseOrder(40);
-         list.AddInReverseOrder(60); */
-        list.InserAtParticularPosition(10, 100);
+         list.AddInReverseOrder(60);
+         list.AddInReverseOrder(70); */
+        list.InserAtParticularPosition(3, 60);
 
         list.Display();
 
