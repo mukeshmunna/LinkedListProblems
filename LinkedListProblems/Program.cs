@@ -8,12 +8,13 @@ public class Program
         Console.WriteLine("LinkedList Problem");
         Console.WriteLine("Welcome to the Linked List Operation");
         LinkedList list = new LinkedList();
-        // list.Add(50);
-        //list.Add(60);
-        //list.Add(70);
-        list.AddInReverseOrder(56);
-        list.AddInReverseOrder(30);
-        list.AddInReverseOrder(70);
+        list.Add(56);
+        list.Add(30);
+        list.Add(70);
+        /* list.AddInReverseOrder(50);
+         list.AddInReverseOrder(40);
+         list.AddInReverseOrder(60); */
+        list.InserAtParticularPosition(10, 100);
 
         list.Display();
 
